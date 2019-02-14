@@ -20,19 +20,24 @@ Edit the **inventory** file :
 
 Tests :
 
-    $ make check
-    $ make debug
-
+```bash
+$ make check
+$ make debug
+```
 
 ## Salt
 
 * Configure the master:
 
-    $ make salt-master
+```bash
+$ make salt-master
+```
 
 * Configure the minions:
 
-    $ make salt-minions
+```bash
+$ make salt-minions
+```
 
 * Restart the salt-minion service on each minions
 
@@ -40,13 +45,15 @@ Tests :
 
 * Check infra:
 
-    $ rock64@jarvis-master:~$ sudo salt-key -L
-    Accepted Keys:
-    jarvis-master
-    jarvis-node1.localdomain
-    jarvis-node2.localdomain
-    jarvis-node3.localdomain
-    jarvis-zero1.localdomain
-    Denied Keys:
-    Unaccepted Keys:
-    Rejected Keys:
+```bash
+$ rock64@jarvis-master:~$ sudo salt-key -L
+Accepted Keys:
+jarvis-master
+jarvis-node1.localdomain
+jarvis-node2.localdomain
+jarvis-node3.localdomain
+jarvis-zero1.localdomain
+Denied Keys:
+Unaccepted Keys:
+Rejected Keys:
+```

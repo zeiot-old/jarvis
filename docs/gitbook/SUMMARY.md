@@ -2,6 +2,6 @@
 
 * [Resume](resume.md)
 * [Setup](ansible.md)
-* [Infra](infra.md)
+* [Infra](salt.md)
 * [Kubernetes](kubernetes.md)
 
